@@ -1,5 +1,8 @@
 package vulntest
 
+import "fmt";
+
 func main() {
-	fmt.println("Hello World");
+	fmt.Print("Hello World")
+	fmt.Print("fixed vuln")
 }
